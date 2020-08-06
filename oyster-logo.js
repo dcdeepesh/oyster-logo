@@ -4,7 +4,7 @@ canvas.width = window.innerWidth;
 
 const context = canvas.getContext("2d");
 context.lineCap = "round";
-context.strokeStyle = "#FFFFFF";
+context.strokeStyle = "#00FFFF";
 
 const CX = Math.floor(canvas.width / 2);
 const CY = Math.floor(canvas.height / 2);
